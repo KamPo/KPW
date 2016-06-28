@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "WebApplication35595"
+  },
+  "hostingPlanName": {
+    "value": "KpApp"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "5bbee2e4-76f5-4d25-a149-7e3c567a2ae0"
+  },
+  "resourceGroup": {
+    "value": "KP26June"
+  }
+}

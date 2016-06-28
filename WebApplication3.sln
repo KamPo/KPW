@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{EB720209-E6AA-4462-AEFE-5C726B5DCAC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CE9166D8-109F-4375-A1AB-A78E108E66B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{15F90293-8A98-4014-A769-977E0985A855}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{12552773-374C-42F7-A906-812BB6D0CE49}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\WebApplication3.json = PublishScripts\Templates\WebApplication3.json
+		PublishScripts\Templates\WebApplication3.param.dev.json = PublishScripts\Templates\WebApplication3.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB720209-E6AA-4462-AEFE-5C726B5DCAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB720209-E6AA-4462-AEFE-5C726B5DCAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB720209-E6AA-4462-AEFE-5C726B5DCAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB720209-E6AA-4462-AEFE-5C726B5DCAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15F90293-8A98-4014-A769-977E0985A855} = {CE9166D8-109F-4375-A1AB-A78E108E66B8}
+		{12552773-374C-42F7-A906-812BB6D0CE49} = {CE9166D8-109F-4375-A1AB-A78E108E66B8}
+	EndGlobalSection
+EndGlobal
